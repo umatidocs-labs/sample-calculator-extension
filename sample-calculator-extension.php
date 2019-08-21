@@ -41,7 +41,9 @@ function simplelender_child_plugin_activate(){
 
 register_activation_hook( __FILE__, 'simplelender_child_plugin_activate' );
 register_deactivation_hook( __FILE__, 'simplelender_child_plugin_activate' );
-simplelender_calculator_connector($sl_init);
+if (function_exists('simplelender_calculator_connector')) {
+    simplelender_calculator_connector($sl_init);
+}
 
 /*
 *   1.) Customize function sample_return_calculator_htlm() to return your calculator html
@@ -64,10 +66,25 @@ function sample_return_calculator_htlm($product_id=''){
     */
 
     $object = apply_filters('sl_get_loan_product',$product_id);
+
+    /*
+    *
+    *   Add the following IDs into the html feilds and it will be picked by simplelender to complete the loan application the IDs are for;
+    *   the loan amount being applyed for, 
+    *   term of the loan(in this format 2d, 2w, 2m, 2y representing  days, weeks, months, years respectively)
+    *   the spending goal e.g. car, home, etc.
+    *
+    */
+    $sl_html_amount_id='sl_loan_app_amount_'.$product_id;
+    $sl_html_amount_terms='sl_loan_app_period_'.$product_id;
+    $sl_html_spending_goal_id='sl_loan_app_goal_'.$product_id;
+    $sl_loan_name=$object->name;
+    $sl_currency=$object->currency;
+
       
-    $calculator_html = $object->name.' '.$object->currency;
+    $calculator_html = '';
      /*
-     *  Replace this function with yot fucntion that will return a html of your loan calculator
+     *  Replace this function with your function that will return a html of your loan calculator, use the Html IDs above.
      *  $calculator_html = function_to_be_replaced();
      *
      */

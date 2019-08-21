@@ -16,3 +16,5 @@ Get started:
     Apply for an affiliate link on the simplelender wordpress plugin menu (the plugin needs to be installed and 
 	activated).
     Get paid for improving the lenders' business process.
+	
+Any questions? info_at_umatidocs.com
