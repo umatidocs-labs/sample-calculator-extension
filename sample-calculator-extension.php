@@ -29,13 +29,16 @@ $sl_init=array(
 *   [nothing needs to do here] add affiliate link to earn money
 *
 */
-function simplelender_plugin_active( $plugin ) {
-    return in_array( $plugin, (array) get_option( 'active_plugins', array() ) );
+if (!function_exists('simplelender_plugin_active')) {
+    function simplelender_plugin_active( $plugin ) {
+        return in_array( $plugin, (array) get_option( 'active_plugins', array() ) );
+    }
 }
-
-function simplelender_child_plugin_activate(){
-    if ( ! simplelender_plugin_active("simplelender-by-umatidocs-com/simplelender-by-umatidocs-com.php") ){
-        wp_die('This plugin requires <a href="'.$sl_init['affiliate_link'].'"> simplelender wordpress plugin</a>  to be installed and active.');
+if (!function_exists('simplelender_child_plugin_activate')) {
+    function simplelender_child_plugin_activate(){
+        if ( ! simplelender_plugin_active("simplelender-by-umatidocs-com/simplelender-by-umatidocs-com.php") ){
+            wp_die('This plugin requires <a href="'.$sl_init['affiliate_link'].'"> simplelender wordpress plugin</a>  to be installed and active.');
+        }
     }
 }
 
