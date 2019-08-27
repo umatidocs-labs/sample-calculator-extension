@@ -1,20 +1,20 @@
-Do you have a wordpress loan calculator? Add simplelender onto to your loan calculator and;
+Do you have a wordpress loan calculator? Integrate with simplelender wordpress plugin and enjoy the 
+following benefits;
 
-    Make a recurring  revenue with no extra installations on your loan calculator.
+	Make more monthly (recurring) revenue per user.
     Make your wordpress loan calculator competitive by adding backend features that improves your lenders' 
 	business website.
-    Get free installs, simplelender will list you as a personalized calculator feature for the lenders you are targeting.
+    Get more installs, users on simplelender will discover you as an option they can use.
 
 How you earn revenue; 
-	By selling a pro version for your loan calculator. You will decide the price while the lander gets a free 
-	backend for their borrowers.
-	Earn recurring revenue from simplender for every customer you refer.
+	1. By selling a pro version for your loan calculator. You have total control on the pricing of your simplelender 
+	   version. 
+	2. Earn 30% recurring revenue from simplelender for every customer who discover us through you.
 
-Get started:
-
-    Add the above code at the top of your wordpress loan calculator - it is well commented.
-    Apply for an affiliate link on the simplelender wordpress plugin menu (the plugin needs to be installed and 
-	activated).
-    Get paid for improving the lenders' business process.
+Get Started
+1. Add the above displayed code at the top of your wordpress loan calculator - it is well commented.
+2. Apply for an affiliate link on the simplelender wordpress plugin menu (the plugin needs to be installed and
+   activated).
+3. Get paid for improving the lenders' business process.
 	
 Any questions? info_at_umatidocs.com
