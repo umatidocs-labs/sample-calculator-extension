@@ -7,9 +7,9 @@ following benefits;
     Get more installs, users on simplelender will discover you as an option they can use.
 
 How you earn revenue; 
-	1. By selling a pro version for your loan calculator. You have total control on the pricing of your simplelender 
-	   version. 
-	2. Earn 30% recurring revenue from simplelender for every customer who discover us through you.
+	By selling a pro version for your loan calculator. You have total control on the pricing of your 
+	simplelender version. 
+	Earn 30% recurring revenue from simplelender for every customer who discover us through you.
 
 Get Started
 1. Add the above displayed code at the top of your wordpress loan calculator - it is well commented.
