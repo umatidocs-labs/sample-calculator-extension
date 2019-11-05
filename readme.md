@@ -16,4 +16,4 @@ Get Started
    installed and activated).
 3. Get paid for improving the lenders' business process.
 	
-Any questions? info_at_umatidocs.com
+Any questions? info_at_simplelender.website
